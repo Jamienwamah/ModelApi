@@ -34,7 +34,7 @@ class Predictions(models.Model):
     gender = models.CharField(max_length=50, choices = GENDER_CHOICES)
     employed = models.CharField(max_length=50, choices = EMPLOYED_CHOICES)
     area = models.CharField(max_length=50, choices = AREA_CHOICES)
-    graduated = models.CharField(max_length=50, choices = GRADUATED_CHOICES)
+    Education_Status = models.CharField(max_length=50, choices = GRADUATED_CHOICES)
     age = models.IntegerField(default=0)
     revenue = models.IntegerField(default=0)
     marital_status = models.CharField(max_length=50, choices = MARRIED_CHOICES)

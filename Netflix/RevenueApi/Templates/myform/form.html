@@ -1,0 +1,9 @@
+<p>Hello, please kindly fill the form below to proceed</p>
+
+<form action="" , method="post", style="background-color: #EE9972;">
+  {% csrf_token %} 
+  <!----Renders form as paragraph tag-->
+  {{form.as_p}}
+
+  <input type="submit" value="Submit" />
+</form>
