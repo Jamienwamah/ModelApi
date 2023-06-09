@@ -2,7 +2,7 @@
 #That can then be easily rendered by JSON, XML or other content types
 
 from rest_framework import serializers
-from rest_framework import Predictions
+from .models import Predictions
 
 class PredictionsSerializer(serializers.ModelSerializer):
     class Meta:
